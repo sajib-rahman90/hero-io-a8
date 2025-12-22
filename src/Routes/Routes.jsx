@@ -10,10 +10,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <MainLayout />,
     errorElement: <Eroor404 />,
+    hydrateFallbackElement: <p>Loadding..</p>,
     children: [
       {
         index: true,
         element: <Home />,
+        loader: () => fetch("./hero-io.json"),
       },
       {
         path: "/apps",

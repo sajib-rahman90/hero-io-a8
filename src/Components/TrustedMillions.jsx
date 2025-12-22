@@ -8,7 +8,7 @@ const TrustedMillions = () => {
           Trusted by Millions, Built for You
         </h1>
       </div>
-      <div className="flex flex-row gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         <div className="text-center py-9 px-16">
           <p className="text-[16px] text-[#E4D9FA] font-normal">
             Total Downloads
