@@ -1,0 +1,434 @@
+[
+  {
+    "image": "finance_1.png",
+    "title": "Smart Budget",
+    "companyName": "FinCore Ltd",
+    "id": 1,
+    "description": "Smart Budget helps users track expenses, manage income, set monthly limits, visualize spending habits, receive alerts, and build healthier financial discipline using simple tools designed for everyday personal money planning.",
+    "size": 28,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "image": "health_1.png",
+    "title": "Fit Pulse",
+    "companyName": "Healthify",
+    "id": 2,
+    "description": "Fit Pulse motivates healthier lifestyles through workout tracking, daily step goals, heart monitoring insights, guided routines, progress charts, reminders, and simple coaching features designed to keep users active consistently.",
+    "size": 34,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 61000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "education_1.png",
+    "title": "Study Mate",
+    "companyName": "EduSpark",
+    "id": 3,
+    "description": "Study Mate supports students with structured study plans, focus timers, subject reminders, revision tracking, smart notes, and performance insights that encourage consistent learning habits without overwhelming distractions.",
+    "size": 22,
+    "reviews": 760,
+    "ratingAvg": 4.4,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "image": "music_1.png",
+    "title": "Beat Flow",
+    "companyName": "SoundWave",
+    "id": 4,
+    "description": "Beat Flow delivers personalized music streaming with curated playlists, offline downloads, mood-based recommendations, high-quality audio, and intuitive controls that make discovering new tracks effortless and enjoyable daily.",
+    "size": 45,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 98000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "travel_1.png",
+    "title": "Trip Planner",
+    "companyName": "WanderTech",
+    "id": 5,
+    "description": "Trip Planner simplifies travel organization by managing itineraries, booking details, maps, packing lists, reminders, and real-time updates, helping travelers stay prepared, stress-free, and focused on enjoying journeys.",
+    "size": 31,
+    "reviews": 890,
+    "ratingAvg": 4.3,
+    "downloads": 37000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "image": "shopping_1.png",
+    "title": "Deal Finder",
+    "companyName": "ShopSmart",
+    "id": 6,
+    "description": "Deal Finder helps shoppers compare prices, track discounts, receive alerts, scan barcodes, and discover savings opportunities across stores, making smarter purchasing decisions without spending unnecessary time searching.",
+    "size": 26,
+    "reviews": 1100,
+    "ratingAvg": 4.1,
+    "downloads": 52000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "productivity_1.png",
+    "title": "Task Pilot",
+    "companyName": "WorkFlowy",
+    "id": 7,
+    "description": "Task Pilot boosts productivity by organizing to-do lists, priorities, deadlines, reminders, and progress views, helping users stay focused, reduce mental clutter, and complete daily tasks efficiently.",
+    "size": 18,
+    "reviews": 640,
+    "ratingAvg": 4.5,
+    "downloads": 29000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 275 }
+    ]
+  },
+  {
+    "image": "social_1.png",
+    "title": "Chat Loop",
+    "companyName": "Connectix",
+    "id": 8,
+    "description": "Chat Loop enables fast messaging with secure chats, media sharing, group conversations, status updates, and customization features that keep friends and communities connected in real time.",
+    "size": 39,
+    "reviews": 3200,
+    "ratingAvg": 4.0,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "news_1.png",
+    "title": "Daily Brief",
+    "companyName": "NewsNet",
+    "id": 9,
+    "description": "Daily Brief delivers summarized news from trusted sources, covering global events, business, technology, and sports, allowing users to stay informed quickly without information overload.",
+    "size": 21,
+    "reviews": 540,
+    "ratingAvg": 4.3,
+    "downloads": 26000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 185 }
+    ]
+  },
+  {
+    "image": "photo_1.png",
+    "title": "Snap Edit",
+    "companyName": "PixelLab",
+    "id": 10,
+    "description": "Snap Edit offers easy photo editing with filters, cropping tools, color adjustments, presets, and sharing options, empowering users to enhance images creatively without professional editing skills.",
+    "size": 47,
+    "reviews": 1700,
+    "ratingAvg": 4.4,
+    "downloads": 88000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 690 }
+    ]
+  },
+  {
+    "image": "weather_1.png",
+    "title": "Sky Watch",
+    "companyName": "ClimaSoft",
+    "id": 11,
+    "description": "Sky Watch provides accurate weather forecasts, hourly updates, severe alerts, radar views, and location-based predictions, helping users plan daily activities confidently in changing weather conditions.",
+    "size": 19,
+    "reviews": 430,
+    "ratingAvg": 4.6,
+    "downloads": 31000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 175 }
+    ]
+  },
+  {
+    "image": "food_1.png",
+    "title": "Recipe Box",
+    "companyName": "CookEase",
+    "id": 12,
+    "description": "Recipe Box helps home cooks discover recipes, save favorites, plan meals, generate shopping lists, and follow step-by-step instructions designed for quick, enjoyable, and stress-free cooking experiences.",
+    "size": 33,
+    "reviews": 820,
+    "ratingAvg": 4.5,
+    "downloads": 46000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 325 }
+    ]
+  },
+  {
+    "image": "finance_2.png",
+    "title": "Expense Log",
+    "companyName": "MoneyPath",
+    "id": 13,
+    "description": "Expense Log records daily spending, categorizes transactions, generates reports, and highlights patterns, helping users gain control over finances and make informed budgeting decisions effortlessly.",
+    "size": 24,
+    "reviews": 510,
+    "ratingAvg": 4.2,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 130 }
+    ]
+  },
+  {
+    "image": "fitness_2.png",
+    "title": "Yoga Flow",
+    "companyName": "ZenApps",
+    "id": 14,
+    "description": "Yoga Flow guides users through calming yoga sessions, breathing exercises, flexibility routines, and mindfulness practices, supporting physical balance, mental clarity, and daily stress reduction.",
+    "size": 36,
+    "reviews": 690,
+    "ratingAvg": 4.7,
+    "downloads": 39000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "learning_2.png",
+    "title": "Code Basics",
+    "companyName": "DevStart",
+    "id": 15,
+    "description": "Code Basics teaches programming fundamentals through short lessons, practice challenges, progress tracking, and clear explanations, making coding approachable for beginners without technical backgrounds.",
+    "size": 29,
+    "reviews": 940,
+    "ratingAvg": 4.6,
+    "downloads": 57000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "image": "video_1.png",
+    "title": "Stream Hub",
+    "companyName": "ViewNow",
+    "id": 16,
+    "description": "Stream Hub offers on-demand videos, personalized recommendations, offline viewing, subtitles, and smooth playback, giving users flexible entertainment options across multiple genres anytime.",
+    "size": 52,
+    "reviews": 2600,
+    "ratingAvg": 4.1,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "navigation_1.png",
+    "title": "Route Go",
+    "companyName": "MapWise",
+    "id": 17,
+    "description": "Route Go provides real-time navigation with traffic updates, alternate routes, voice guidance, and location saving features, helping users reach destinations faster and avoid unnecessary delays.",
+    "size": 41,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 440 }
+    ]
+  },
+  {
+    "image": "security_1.png",
+    "title": "Safe Vault",
+    "companyName": "SecureX",
+    "id": 18,
+    "description": "Safe Vault protects sensitive data using encryption, password storage, biometric access, backups, and breach alerts, ensuring user privacy and security across devices.",
+    "size": 27,
+    "reviews": 610,
+    "ratingAvg": 4.6,
+    "downloads": 34000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+  {
+    "image": "books_1.png",
+    "title": "Readify",
+    "companyName": "BookNest",
+    "id": 19,
+    "description": "Readify lets users explore ebooks, track reading progress, bookmark pages, customize themes, and build digital libraries, creating a comfortable and organized reading experience.",
+    "size": 23,
+    "reviews": 480,
+    "ratingAvg": 4.3,
+    "downloads": 21000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 165 }
+    ]
+  },
+  {
+    "image": "events_1.png",
+    "title": "Evently",
+    "companyName": "MeetUpPro",
+    "id": 20,
+    "description": "Evently helps users discover local events, manage bookings, receive reminders, share plans, and stay updated, making social participation easier and more organized.",
+    "size": 32,
+    "reviews": 520,
+    "ratingAvg": 4.2,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 155 }
+    ]
+  },
+  {
+    "image": "tools_1.png",
+    "title": "Unit Converter",
+    "companyName": "QuickTools",
+    "id": 21,
+    "description": "Unit Converter supports fast conversions across length, weight, temperature, currency, and volume, providing accurate results instantly for students, professionals, and everyday practical use.",
+    "size": 14,
+    "reviews": 390,
+    "ratingAvg": 4.5,
+    "downloads": 18000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 165 }
+    ]
+  },
+  {
+    "image": "notes_1.png",
+    "title": "Note Stack",
+    "companyName": "MemoTech",
+    "id": 22,
+    "description": "Note Stack allows users to capture ideas, organize notes, sync devices, search content, and stay productive with a clean interface built for clarity and speed.",
+    "size": 17,
+    "reviews": 720,
+    "ratingAvg": 4.4,
+    "downloads": 36000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 275 }
+    ]
+  },
+  {
+    "image": "shopping_2.png",
+    "title": "Cart Save",
+    "companyName": "BuyMore",
+    "id": 23,
+    "description": "Cart Save tracks wishlists, monitors price drops, compares products, and sends notifications, helping users shop smarter, save money, and avoid impulsive purchases.",
+    "size": 30,
+    "reviews": 610,
+    "ratingAvg": 4.1,
+    "downloads": 33000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 170 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "image": "utility_1.png",
+    "title": "Battery Guard",
+    "companyName": "PowerLabs",
+    "id": 24,
+    "description": "Battery Guard monitors power usage, optimizes background apps, sends charging alerts, and extends battery lifespan, helping users maintain device performance throughout busy daily schedules.",
+    "size": 16,
+    "reviews": 450,
+    "ratingAvg": 4.3,
+    "downloads": 24000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 155 }
+    ]
+  }
+]
