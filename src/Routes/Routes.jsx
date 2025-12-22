@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router";
-import App from "../App";
 import Apps from "../Pages/Apps";
 import Home from "../Pages/Home";
 import Installation from "../Pages/Installation";
