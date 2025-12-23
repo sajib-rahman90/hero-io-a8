@@ -1,6 +1,6 @@
 [
   {
-    "image": "finance_1.png",
+    "image": "https://plus.unsplash.com/premium_photo-1681487850722-f686554f95c1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Smart Budget",
     "companyName": "FinCore Ltd",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "health_1.png",
+    "image": "https://media.istockphoto.com/id/648380956/photo/man-hands-with-watch-and-phone-with-app-health.jpg?s=1024x1024&w=is&k=20&c=oVqiGQbma77tsTkIWiV4IV4-B-lKhWV6kbOGD03HhyA=",
     "title": "Fit Pulse",
     "companyName": "Healthify",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "education_1.png",
+    "image": "https://images.unsplash.com/photo-1581089786257-d34fe7d9bff6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Study Mate",
     "companyName": "EduSpark",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "music_1.png",
+    "image": "https://images.unsplash.com/photo-1598698287642-9ceaf9a7a011?q=80&w=762&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Beat Flow",
     "companyName": "SoundWave",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "travel_1.png",
+    "image": "https://images.unsplash.com/photo-1692895591954-451050db22fd?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Trip Planner",
     "companyName": "WanderTech",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "shopping_1.png",
+    "image": "https://plus.unsplash.com/premium_photo-1683984171269-04c84ee23234?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Deal Finder",
     "companyName": "ShopSmart",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "productivity_1.png",
+    "image": "https://media.istockphoto.com/id/1329897286/photo/pilot-use-digital-tablet-in-passenger-airplane-jet.jpg?s=1024x1024&w=is&k=20&c=m7a-j83ILonGizeMC2zdrp7UAThnbFOPpbSCUEYMZUc=",
     "title": "Task Pilot",
     "companyName": "WorkFlowy",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "social_1.png",
+    "image": "https://plus.unsplash.com/premium_photo-1744851721120-da7081db2cbf?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Chat Loop",
     "companyName": "Connectix",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "news_1.png",
+    "image": "https://plus.unsplash.com/premium_photo-1661290480123-4d6afd376520?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Daily Brief",
     "companyName": "NewsNet",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "photo_1.png",
+    "image": "https://plus.unsplash.com/premium_photo-1722156533656-b22cbcf1c82e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Snap Edit",
     "companyName": "PixelLab",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "weather_1.png",
+    "image": "https://media.istockphoto.com/id/474515464/photo/whats-weather-like-today.jpg?s=1024x1024&w=is&k=20&c=EBm2ykapLeWZFj58J0_5fN2tmglZbPiBi1d-UgVSV5c=",
     "title": "Sky Watch",
     "companyName": "ClimaSoft",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "food_1.png",
+    "image": "https://images.unsplash.com/photo-1655354439118-185a1566ba5a?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Recipe Box",
     "companyName": "CookEase",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "finance_2.png",
+    "image": "https://images.unsplash.com/photo-1650821414390-276561abd95a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Expense Log",
     "companyName": "MoneyPath",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "fitness_2.png",
+    "image": "https://images.unsplash.com/photo-1758599879795-536d5f203de9?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Yoga Flow",
     "companyName": "ZenApps",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "learning_2.png",
+    "image": "https://plus.unsplash.com/premium_photo-1733342561505-306871f4e706?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Code Basics",
     "companyName": "DevStart",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "video_1.png",
+    "image": "https://images.unsplash.com/photo-1514471157964-06459a4b9241?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Stream Hub",
     "companyName": "ViewNow",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "navigation_1.png",
+    "image": "https://images.unsplash.com/photo-1604355231395-bf02775c357f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Route Go",
     "companyName": "MapWise",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "security_1.png",
+    "image": "https://plus.unsplash.com/premium_photo-1675283555385-8cab763245bb?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Safe Vault",
     "companyName": "SecureX",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "books_1.png",
+    "image": "https://media.istockphoto.com/id/652224826/photo/electronic-library.jpg?s=1024x1024&w=is&k=20&c=AbjPTs-tSvvyYJPrgl4zJjjS4-hbDglZVd9McnManeQ=",
     "title": "Readify",
     "companyName": "BookNest",
     "id": 19,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "events_1.png",
+    "image": "https://plus.unsplash.com/premium_photo-1661290668718-79a21a4795fc?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Evently",
     "companyName": "MeetUpPro",
     "id": 20,
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "image": "tools_1.png",
+    "image": "https://media.istockphoto.com/id/605777630/photo/system-of-units-with-names.jpg?s=1024x1024&w=is&k=20&c=7-FB4C7D40WUjpZjsaXP0wsJ2yVCcqRH3rJ4I2ZK5K4=",
     "title": "Unit Converter",
     "companyName": "QuickTools",
     "id": 21,
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "image": "notes_1.png",
+    "image": "https://images.unsplash.com/photo-1663864796948-ea1f01b84ef3?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Note Stack",
     "companyName": "MemoTech",
     "id": 22,
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "image": "shopping_2.png",
+    "image": "https://plus.unsplash.com/premium_photo-1679397789462-0018e23d010b?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Cart Save",
     "companyName": "BuyMore",
     "id": 23,
@@ -414,7 +414,7 @@
     ]
   },
   {
-    "image": "utility_1.png",
+    "image": "https://plus.unsplash.com/premium_photo-1681433419747-f5c114430ab5?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Battery Guard",
     "companyName": "PowerLabs",
     "id": 24,
