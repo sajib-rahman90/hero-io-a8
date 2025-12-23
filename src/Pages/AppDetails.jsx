@@ -21,6 +21,20 @@ const AppDetails = () => {
     description,
   } = app;
 
+  const handleToInstalledList = () => {
+    const existingList = JSON.parse(localStorage.getItem("installlist"));
+    let updateList = [];
+    if (existingList) {
+      const isDuplicate = existingList.some((a) => a.id === app.id);
+      if (isDuplicate)
+        return alert("sorrry! You have allrady selected this items");
+      updateList = [...existingList, app];
+    } else {
+      updateList.push(app);
+    }
+    localStorage.setItem("installlist", JSON.stringify(updateList));
+  };
+
   return (
     <div className="bg-[#F5F5F5] ">
       <div className="bg-[#F5F5F5] w-11/12 mx-auto py-20 space-y-20 ">
@@ -67,7 +81,10 @@ const AppDetails = () => {
                 </h1>
               </div>
             </div>
-            <button className="btn btn-secondary">
+            <button
+              onClick={handleToInstalledList}
+              className="btn btn-secondary"
+            >
               Install Now <span>({size})</span>
             </button>
           </div>
