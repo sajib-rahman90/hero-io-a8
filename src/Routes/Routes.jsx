@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import Installation from "../Pages/Installation";
 import MainLayout from "../Layouts/MainLayout";
 import Eroor404 from "../Pages/Eroor404";
+import AppDetails from "../Pages/AppDetails";
 
 const router = createBrowserRouter([
   {
@@ -15,11 +16,14 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
-        loader: () => fetch("./hero-io.json"),
       },
       {
         path: "/apps",
         element: <Apps></Apps>,
+      },
+      {
+        path: "/app/:id",
+        element: <AppDetails />,
       },
       {
         path: "/installation",

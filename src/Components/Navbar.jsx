@@ -57,7 +57,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <NavLink to={"/"} className="btn">
+          <NavLink to={"/"} className="btn btn-primary">
             Contribute
           </NavLink>
         </div>

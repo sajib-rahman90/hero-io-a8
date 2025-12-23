@@ -1,12 +1,18 @@
 import { Download, StarIcon } from "lucide-react";
 import React from "react";
+import { Link, useNavigate } from "react-router";
 
 const TrendingAppsCards = ({ app }) => {
-  const { title, downloads, ratingAvg, image } = app;
+  const { title, downloads, ratingAvg, image, id } = app;
+
+  const navigate = useNavigate();
   return (
-    <div className="card bg-base-100 shadow-sm p-2 space-y-2.5">
+    <div
+      onClick={() => navigate(`/app/${id}`)}
+      className="card bg-base-100 shadow-sm p-2 space-y-2.5 hover:scale-105 transition ease-in-out "
+    >
       <figure className="rounded-[10px]">
-        <img className="w-full h-56 object-cover " src={image} alt="Shoes" />
+        <img className="w-full h-56 object-cover " src={image} alt="" />
       </figure>
       <div className="space-y-3">
         <h2 className="card-title text-[#001931] text-xl font-medium">

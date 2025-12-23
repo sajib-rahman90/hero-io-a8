@@ -29,7 +29,7 @@ const Home = () => {
         </div>
 
         <div>
-          <Link className="btn btn-outline " to={"/apps"}>
+          <Link className="btn btn-primary " to={"/apps"}>
             Show All
           </Link>
         </div>
