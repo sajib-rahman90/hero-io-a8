@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router";
 import heroImg from "../assets/hero.png";
+import play from "../assets/google-play.png";
+import app from "../assets/app-store.png";
 
 const ProductiveApps = () => {
   return (
-    <div className="border-2 pt-20 flex flex-col w-11/12 mx-auto justify-center items-center space-y-9">
+    <div className=" pt-20 flex flex-col w-11/12 mx-auto justify-center items-center space-y-9">
       <div className="text-center space-y-9">
         <div className=" space-y-3.5">
           <h1 className="text-7xl font-medium  text-[#001931]">
@@ -20,10 +22,22 @@ const ProductiveApps = () => {
         </div>
 
         <div className="space-x-4">
-          <NavLink to={"/"} className="btn">
+          <NavLink
+            className="btn"
+            to="https://play.google.com/store/games?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={play} alt="" />
             Google Play
           </NavLink>
-          <NavLink to="/" className="btn">
+          <NavLink
+            className="btn"
+            to="https://www.apple.com/app-store/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={app} alt="" />
             App Store
           </NavLink>
         </div>

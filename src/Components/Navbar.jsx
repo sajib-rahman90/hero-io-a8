@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
+import logo from "../assets/logo.png";
+import { Github } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -39,26 +41,43 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link to={"/"} className=" text-xl">
-            HERO.IO
+          <Link to={"/"} className=" flex items-center">
+            <img className="w-10 h-10" src={logo} alt="" />
+            <p className=" text-xl text-[#632EE3]">HERO.IO</p>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <NavLink to={"/"}>Home</NavLink>
+              <NavLink to={"/"} className="text-[16px] font-semibold">
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/apps"}>Apps</NavLink>
+              <NavLink to={"/apps"} className="text-[16px] font-semibold">
+                Apps
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/installation"}>Installation</NavLink>
+              <NavLink
+                to={"/installation"}
+                className="text-[16px] font-semibold"
+              >
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <NavLink to={"/"} className="btn btn-primary">
-            Contribute
+          <NavLink
+            to="https://github.com/sajib-rahman90"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="btn btn-primary">
+              <Github />
+              Contribute
+            </h1>
           </NavLink>
         </div>
       </div>

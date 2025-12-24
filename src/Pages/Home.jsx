@@ -4,10 +4,13 @@ import TrustedMillions from "../Components/TrustedMillions";
 import { Link } from "react-router";
 import TrendingAppsCards from "../Components/TrendingAppsCards";
 import useApps from "../Hooks/useApps";
+import LoaddingSpinner from "../Components/LoaddingSpinner";
 
 const Home = () => {
-  const { apps, loading, error } = useApps();
+  const { apps, loading } = useApps();
   const trandingApps = apps.slice(0, 8);
+
+  if (loading) return <LoaddingSpinner />;
 
   return (
     <div className="bg-[#F5F5F5]">
@@ -23,9 +26,13 @@ const Home = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {trandingApps.map((app) => (
-            <TrendingAppsCards key={app.id} app={app} />
-          ))}
+          {loading ? (
+            <LoaddingSpinner></LoaddingSpinner>
+          ) : (
+            trandingApps.map((app) => (
+              <TrendingAppsCards key={app.id} app={app} />
+            ))
+          )}
         </div>
 
         <div>

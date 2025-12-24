@@ -1,15 +1,35 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useApps from "../Hooks/useApps";
 import TrendingAppsCards from "../Components/TrendingAppsCards";
+import LoaddingSpinner from "../Components/LoaddingSpinner";
 
 const Apps = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
+
   const [search, setSearch] = useState("");
+
+  const [searchLoading, setSearchLoading] = useState(false);
+
   const term = search.trim().toLocaleLowerCase();
+
+  useEffect(() => {
+    if (!search) return;
+
+    setSearchLoading(true);
+
+    const timer = setTimeout(() => {
+      setSearchLoading(false);
+    }, 400);
+
+    return () => clearTimeout(timer);
+  }, [search]);
+
+  if (loading) return <LoaddingSpinner />;
 
   const searchedApps = term
     ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
     : apps;
+
   return (
     <div className="bg-[#F5F5F5]">
       <div className="w-11/12 mx-auto space-y-10 items-center text-center py-20">
@@ -19,6 +39,7 @@ const Apps = () => {
             Explore All Apps on the Market developed by us. We code for Millions
           </p>
         </div>
+
         <div className="flex justify-between">
           <h1 className="text-[#001931 text-2xl font-semibold]">
             <span className="text-[#001931 text-2xl font-semibold]">
@@ -37,9 +58,17 @@ const Apps = () => {
           </label>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {searchedApps.map((app) => (
-            <TrendingAppsCards key={app.id} app={app} />
-          ))}
+          {searchLoading ? (
+            <LoaddingSpinner />
+          ) : searchedApps.length === 0 ? (
+            <p className="col-span-full text-center text-xl text-gray-500">
+              No apps found
+            </p>
+          ) : (
+            searchedApps.map((app) => (
+              <TrendingAppsCards key={app.id} app={app} />
+            ))
+          )}
         </div>
       </div>
     </div>

@@ -1,14 +1,23 @@
-import React from "react";
 import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import { DownloadIcon, Star, ThumbsUpIcon } from "lucide-react";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+import LoaddingSpinner from "../Components/LoaddingSpinner";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
   const app = apps.find((p) => String(p.id) === id);
 
-  if (loading) return <p>Loading.....</p>;
+  if (loading) return <LoaddingSpinner></LoaddingSpinner>;
 
   const {
     image,
@@ -19,9 +28,11 @@ const AppDetails = () => {
     companyName,
     size,
     description,
+    ratings,
   } = app;
 
   const handleToInstalledList = () => {
+    alert("Installed Succesfull!");
     const existingList = JSON.parse(localStorage.getItem("installlist"));
     let updateList = [];
     if (existingList) {
@@ -83,13 +94,49 @@ const AppDetails = () => {
             </div>
             <button
               onClick={handleToInstalledList}
-              className="btn btn-secondary"
+              className="btn text-white bg-[#00D390]"
             >
               Install Now <span>({size})</span>
             </button>
           </div>
         </div>
-        <div></div>
+
+        {/* Rating chart */}
+        <div className=" space-y-3">
+          <h1>Ratings</h1>
+          <div className="bg-base-100 border rounded-xl p-4 ">
+            <BarChart
+              style={{
+                width: "100%",
+                maxWidth: "700px",
+                maxHeight: "70vh",
+                aspectRatio: 1.618,
+              }}
+              responsive
+              data={ratings}
+              margin={{
+                top: 0,
+                right: 0,
+                left: 0,
+                bottom: 0,
+              }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="name" />
+              <YAxis width="count" />
+              <Tooltip />
+              <Legend />
+
+              <Bar
+                dataKey="count"
+                fill="#82ca9d"
+                activeBar={{ fill: "gold", stroke: "purple" }}
+                radius={[10, 10, 0, 0]}
+              />
+              {/* <RechartsDevtools /> */}
+            </BarChart>
+          </div>
+        </div>
         <div>
           <h1 className="font-semibold text-2xl text-[#001931] pb-5">
             Description
