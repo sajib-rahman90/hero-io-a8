@@ -2,6 +2,7 @@ import { DownloadIcon, Star } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import useApps from "../Hooks/useApps";
 import LoaddingSpinner from "../Components/LoaddingSpinner";
+import { ToastContainer, toast } from "react-toastify";
 
 const Installation = () => {
   const [installlist, setInstalllist] = useState([]);
@@ -35,7 +36,7 @@ const Installation = () => {
   })();
 
   const handleRemove = (id) => {
-    alert("Un-installed from your device!");
+    toast("Un-installed from your device.");
     const existingList = JSON.parse(localStorage.getItem("installlist"));
 
     let updateList = existingList.filter((a) => a.id !== id);
@@ -47,11 +48,11 @@ const Installation = () => {
   return (
     <div className="bg-[#F5F5F5] ">
       <div className="bg-[#F5F5F5]  w-11/12 mx-auto py-20 space-y-20 ">
-        <div className="text-center space-y-4">
-          <h1 className="text-5xl text-[#001931] font-bold">
+        <div className="text-center space-y-3 md:space-y-4">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#001931] font-bold">
             Your Installed Apps
           </h1>
-          <p className="text-xl text-[#4e555e] font-normal">
+          <p className="text-base sm:text-lg md:text-xl lg:text-xl text-[#4e555e] font-normal">
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
@@ -77,42 +78,45 @@ const Installation = () => {
             {sortedItem.map((a) => (
               <div
                 key={a.id}
-                className=" flex items-center justify-between card-side bg-base-100 shadow p-3.5 rounded-sm  "
+                className="flex flex-col sm:flex-row sm:items-center justify-between card-side bg-base-100 shadow p-3.5 rounded-sm"
               >
-                <div className="flex gap-2.5 items-center">
+                <div className="flex flex-col sm:flex-row gap-2.5 items-start sm:items-center">
                   <img
-                    className="w-26 h-26 rounded-lg object-cover"
+                    className="w-full sm:w-26 h-40 sm:h-26 rounded-lg object-cover"
                     src={a.image}
                     alt=""
                   />
 
-                  <div className="space-y-4">
+                  <div className="space-y-3 sm:space-y-4 mt-2 sm:mt-0">
                     <div>
-                      <h3 className="text-lg font-medium">{a.title}</h3>
+                      <h3 className="text-base sm:text-lg font-medium">
+                        {a.title}
+                      </h3>
                     </div>
-                    <div className="flex  items-center gap-4">
-                      <div className="flex   gap-1.5">
-                        <DownloadIcon className="text-[#00827A]  "></DownloadIcon>
-
-                        <h1 className=" font-normal text-[#00827A]">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
+                      <div className="flex gap-1.5 items-center">
+                        <DownloadIcon className="text-[#00827A]" />
+                        <h1 className="font-normal text-[#00827A]">
                           {a.downloads}
                         </h1>
                       </div>
-                      <div className="flex gap-2.5">
+                      <div className="flex gap-2.5 items-center">
                         <Star className="text-[#FF8811]" />
-
-                        <h1 className=" font-normal text-[#FF8811]">
+                        <h1 className="font-normal text-[#FF8811]">
                           {a.ratingAvg}
                         </h1>
                       </div>
-                      <span className="text-[#627382]">{a.size}</span>
+                      <span className="text-sm sm:text-base text-[#627382]">
+                        {a.size}
+                      </span>
                     </div>
                   </div>
                 </div>
-                <div className="">
+
+                <div className="mt-3 sm:mt-0">
                   <button
                     onClick={() => handleRemove(a.id)}
-                    className="btn btn-outline text-white bg-[#00D390]"
+                    className="btn btn-outline text-white bg-[#00D390] w-full sm:w-auto"
                   >
                     Uninstall
                   </button>
@@ -121,6 +125,7 @@ const Installation = () => {
             ))}
           </div>
         </div>
+        <ToastContainer position="top-center" theme="light" />
       </div>
     </div>
   );

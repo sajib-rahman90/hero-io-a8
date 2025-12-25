@@ -40,20 +40,21 @@ const Apps = () => {
           </p>
         </div>
 
-        <div className="flex justify-between">
-          <h1 className="text-[#001931 text-2xl font-semibold]">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <h1 className="text-[#001931 text-xl sm:text-2xl font-semibold]">
             <span className="text-[#001931 text-2xl font-semibold]">
               ({searchedApps.length})
             </span>
             Apps Found
           </h1>
 
-          <label className="input">
+          <label className="input  w-full sm:w-auto">
             <input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               type="search"
               placeholder="Search Apps"
+              className="w-full sm:w-64"
             />
           </label>
         </div>
@@ -61,8 +62,8 @@ const Apps = () => {
           {searchLoading ? (
             <LoaddingSpinner />
           ) : searchedApps.length === 0 ? (
-            <p className="col-span-full text-center text-xl text-gray-500">
-              No apps found
+            <p className="col-span-full text-center text-5xl font-bold text-gray-500">
+              No Apps Found!
             </p>
           ) : (
             searchedApps.map((app) => (
